@@ -25,7 +25,7 @@ python -c "import flask; print(flask.__version__)"
 
 ## Start script (Start the application)
 
-py main.py
+python main.py
 
 ## Check url
 
