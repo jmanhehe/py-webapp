@@ -17,6 +17,12 @@ source venv/bin/activate
 pip install flask  
 pip install requests
 
+## Check that flask is installed correctly (Optional)
+
+```py
+python -c "import flask; print(flask.__version__)"
+```
+
 ## Start script (Start the application)
 
 py main.py
