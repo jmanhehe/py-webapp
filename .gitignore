@@ -1,0 +1,30 @@
+# Ignorera Python-virtualenv
+venv/
+.env
+*.pyc
+__pycache__/
+
+# Ignorera OS-specifika filer
+.DS_Store
+Thumbs.db
+
+# Ignorera loggfiler och cache
+*.log
+*.sqlite3
+
+# Ignorera IDE/editor-specifika filer
+.vscode/
+.idea/
+*.swp
+
+# Ignorera pip environment och dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorera env-filer med hemliga variabler
+.env
+*.env
+
+# Ignorera komprimerade filer
+*.tar.gz
+*.zip
